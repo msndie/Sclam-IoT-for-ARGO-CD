@@ -30,3 +30,5 @@ spec:
   ports:
     - protocol: TCP
       port: 8888
+      target_port: 8888
+  type: LoadBalancer
